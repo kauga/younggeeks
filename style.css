@@ -689,6 +689,7 @@
   display: grid;
   grid-template-columns: 1fr 0.7fr 0.7fr;
   gap: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .heading-news {
@@ -714,5 +715,96 @@
   font-size: 15px;
   line-height: 25px;
   color: #2A303980;
-  margin-top: 8px;
+  margin-top: 10px;
+  margin-bottom: 4rem;
 }
+
+.all-article {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  font-family: poopins;
+  color: #2A3039;
+  text-decoration: none;
+}
+
+.radix-arrow {
+  height: 15px;
+  width: 15px;
+  font-weight: 900;
+}
+
+.consultation-dates {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.consultation {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.86px;
+  font-family: poppins;
+  color: #2A303980;
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+
+.lorem-ten {
+  font-family: poppins;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 28px;
+  color: #2A3039;
+}
+
+/* ************** FRAME TWO SECTION  ************** */
+.frame-two {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  background-color: #F1EFF166;
+  padding: 3rem 8rem 0 8rem;
+  gap: 2rem;
+  height: 80vh;
+}
+
+.heading-inc {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 43.71px;
+  font-family: poppins;
+  color: #2a3039;
+  margin-bottom: 8px;
+}
+
+.Inc {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17.49px;
+  color: #2a3039;
+  margin-top: 17px;
+}
+
+.lastLorem {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  color: #2A303980;
+  margin-bottom: 1.3rem;
+}
+
+.stayConnected {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: poppins;
+  line-height: 27.32px;
+  color: #000000;
+}
+
+::-webkit-input-placeholder {
+  color: red;
+}
+
