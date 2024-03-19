@@ -761,12 +761,16 @@
 
 /* ************** FRAME TWO SECTION  ************** */
 .frame-two {
-  display: grid;
-  grid-template-columns: 1.5fr 1.5fr;
   background-color: #F1EFF166;
   padding: 3rem 8rem 0 8rem;
+  height: 60vh;
+}
+
+.twoFooter {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
   gap: 2rem;
-  height: 80vh;
+  margin-bottom: 2.5rem;
 }
 
 .heading-inc {
@@ -804,7 +808,61 @@
   color: #000000;
 }
 
+.email {
+  width: 340px;
+  height: 42px;
+  border-radius: 5px;
+  border: 1px solid #007AFF;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+
+.email-sybmit {
+  position: relative;
+
+}
+
 ::-webkit-input-placeholder {
-  color: red;
+  font-family: poppins;
+  color:#2A303980;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.49px;
+}
+
+.Submit {
+  width: 149px;
+  height: 42px;
+  border-radius: 0px, 5px, 5px, 0px;
+  font-family: poppins;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20.49px;
+  color: #FFFFFF;
+  background-color: #007AFF;
+  border: none;
+  position: absolute;
+  top: 27%;
+  right: 33.9%;
+}
+
+.icons {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 3rem;
+  /* margin-top: 45px; */
+}
+
+.list {
+  list-style: none;
+}
+
+.border {
+  width: 830px;
+  padding: 0 8rem 0 8rem;
+  border-bottom: solid 1px #2A303929;
+  /* border: solid 1px red; */
 }
 
