@@ -177,7 +177,7 @@
 }
 
 .backgroundImg {
-  /* background-size: cover; */
+  background-size: cover;
   background-size: cover;
   background-position-y: cover;
   background-repeat: no-repeat;
