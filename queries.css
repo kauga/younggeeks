@@ -756,3 +756,28 @@
     line-height: 14px;
   }
 }
+
+/* * MOBILE 300PX * */
+@media screen and (max-width: 300px) {
+  .out-look {
+    width: 250px;
+    box-shadow: 14px 14px 44px 0px #0000001c;
+}
+
+  .pictures {
+    width: 284px;
+}
+
+.frame-two {
+  padding: 3rem 0.5rem 0 0.5rem;
+}
+
+.email {
+  width: 260px;
+}
+
+  .Submit {
+    right: 4.7%;
+}
+
+}
