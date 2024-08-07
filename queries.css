@@ -1,10 +1,14 @@
 @media screen and (max-width: 2560px) {
   .frame-38-image {
-    right: 31%;
+    right: 47%;
   }
 
   .provided-services {
     gap: 7rem;
+  }
+
+  .displayMax-width {
+    margin-left: 30rem;
   }
 
   .categories-section,
@@ -22,8 +26,17 @@
     height: 90vh;
   }
 
+  .displayMax-width {
+    margin-left: 0;
+  }
+
   .rectangle-22 {
     height: 80vh;
+    padding: 2.5rem 1rem 2rem 8rem;
+  }
+
+  .frame-38-image {
+    right: 12%;
   }
 
   .frame-two {
@@ -34,6 +47,10 @@
 @media screen and (max-width: 1024px) {
   .container {
     margin: 0 3rem;
+  }
+
+  .backgroundImg {
+    width: 450px;
   }
 
   /* .header-section {
@@ -69,10 +86,9 @@
   .mainHeader {
     gap: 4rem;
   }
-
-  /* .frame-38-image {
-    right: 20%;
-  } */
+  .ofefer-image {
+    width: 100%;
+  }
 
   .location-words {
     margin-left: 0.9rem;
@@ -199,6 +215,15 @@
     right: 4%;
     color: red;
   }
+
+  .backgroundImg {
+    width: 430px;
+  }
+
+  .Submit {
+    /* right: 19%; */
+    right: 22.4%;
+  }
 }
 
 /* MOBILE 970PX */
@@ -207,8 +232,40 @@
     margin: 0 4rem;
   }
 
+  .heading-div {
+    gap: 1.4rem;
+  }
+
+  .heading-oneDiv {
+    margin-left: 5rem;
+  }
+
+  .heading-one {
+    margin-top: 5rem;
+  }
+
+  .backgroundImg {
+    width: 420px;
+  }
+
+  .frame-38-image {
+    right: 8%;
+  }
+
+  .myCard {
+    margin-top: 3rem;
+  }
+
   .rectangle-22 {
     padding: 2.5rem 1rem 2rem 4rem;
+  }
+
+  .nonebr {
+    display: none;
+  }
+
+  .rectangle38-section {
+    margin-top: 4rem;
   }
 
   .provided-services {
@@ -217,8 +274,9 @@
   }
 
   .Submit {
-    top: 27%;
-    right: 17.9%;
+    /* top: 26.9%; */
+    /* right: 25.7%; */
+    right: 19.6%;
   }
 
   .frame-one {
@@ -278,8 +336,8 @@
   }
 
   .Submit {
-    top: 27.4%;
-    right: 19%;
+    top: 27.2%;
+    right: 19.2%;
   }
 
   .email {
@@ -316,15 +374,19 @@
 
   .Submit {
     top: 27.4%;
-    right: 55.9%;
+    right: 56%;
   }
-
+  /* 
   .nonebr {
     display: none;
-  }
+  } */
 }
 /* * MOBILE 768PX * */
 @media screen and (max-width: 768px) {
+  .container {
+    margin: 0 3rem;
+  }
+
   .heading-div {
     margin-top: 3rem;
   }
@@ -347,9 +409,6 @@
     line-height: 33px;
   }
 
-  .container {
-    margin: 0 3rem;
-  }
   .rectangle38-section {
     margin-top: 3rem;
     height: 224px;
@@ -373,8 +432,12 @@
     font-weight: 500;
   }
 
+  .rectangle-22 {
+    padding: 2rem 1rem 2rem 4rem;
+  }
+
   .Submit {
-    top: 27.4%;
+    top: 26%;
     right: 54%;
   }
 
@@ -382,23 +445,15 @@
     font-size: 12px;
     font-weight: 400;
   }
-}
 
-/* * MOBILE 700PX * */
-@media screen and (max-width: 700px) {
-  .frame-one {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* * MOBILE 600PX * */
-@media screen and (max-width: 600px) {
+  /* ////////////////////// */
   .heading-div {
     grid-template-columns: 1fr;
   }
 
   .backgroundImg {
     height: 600px;
+    width: 100%;
   }
 
   .frame-38-image {
@@ -407,6 +462,25 @@
     height: 50%;
   }
 
+  .heading-one {
+    margin-top: 0;
+  }
+}
+
+/* * MOBILE 700PX * */
+@media screen and (max-width: 700px) {
+  .frame-one {
+    grid-template-columns: 1fr;
+  }
+
+  .Submit {
+    top: 27.2%;
+    right: 49.4%;
+  }
+}
+
+/* * MOBILE 600PX * */
+@media screen and (max-width: 600px) {
   .numbers {
     font-weight: 400;
     font-size: 30px;
@@ -422,6 +496,10 @@
     margin-left: 20px;
     width: 430px;
     height: 240px;
+  }
+
+  .Submit {
+    right: 40.1%;
   }
 }
 
@@ -452,7 +530,7 @@
   }
 
   .Submit {
-    right: 27%;
+    right: 34%;
   }
 }
 
@@ -470,6 +548,10 @@
 
   .arrow-statistic {
     right: 40%;
+  }
+
+  .Submit {
+    right: 27%;
   }
 }
 
@@ -510,6 +592,9 @@
   .arrow-statistic {
     right: 37%;
   }
+  .Submit {
+    right: 12.2%;
+  }
 
   .copyrightList {
     gap: 1rem;
@@ -527,6 +612,14 @@
     width: 340px;
   }
 
+  .frame-38-image {
+    height: 40%;
+  }
+
+  .explore-heading {
+    font-size: 19px;
+  }
+
   .out-look {
     width: 300px;
   }
@@ -534,10 +627,22 @@
   .email {
     width: 300px;
   }
+
+  .Submit {
+    right: 12%;
+  }
 }
 
 /* * MOBILE 375PX * */
 @media screen and (max-width: 375px) {
+  .built-heading {
+    font-size: 27px;
+  }
+
+  .queries375px {
+    display: none;
+  }
+
   .Submit {
     right: 5%;
   }
@@ -568,8 +673,8 @@
   }
 
   .frame-38-image {
-    right: 0;
-    height: 33%;
+    right: 1;
+    height: 31%;
   }
 
   .lorem-eight {
@@ -593,7 +698,7 @@
   }
 
   .frame-6 {
-    width: 294px;
+    width: 288px;
   }
 
   .bar1 {
@@ -615,7 +720,7 @@
   }
 
   .heading-four {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .arrow-statistic {
