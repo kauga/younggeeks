@@ -27,7 +27,7 @@
   z-index: 100;
 }
 
-.header-section.hidden {
+.header-section.sticky {
   position: fixed;
   top: 0;
   background-color: #4bbb7d;
@@ -201,7 +201,7 @@
   margin-bottom: 7rem;
   border-radius: 5px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 3rem;
 }

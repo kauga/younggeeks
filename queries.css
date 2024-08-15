@@ -1,6 +1,7 @@
 @media screen and (max-width: 2560px) {
   .frame-38-image {
-    right: 47%;
+    /* right: 47%; */
+    right: 30%;
   }
 
   .provided-services {
@@ -202,6 +203,7 @@
   .sub-link {
     margin-top: 10rem;
     flex-direction: column;
+    margin-left: 0;
   }
 
   .menuOpenButton {
@@ -673,7 +675,7 @@
   }
 
   .frame-38-image {
-    right: 1;
+    right: 1%;
     height: 31%;
   }
 
@@ -777,7 +779,6 @@
 }
 
   .Submit {
-    right: 0%;
+    right: 4.7%;
 }
-
 }
