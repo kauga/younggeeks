@@ -17,6 +17,10 @@
     height: 50.5vh;
   }
 
+  .rectangle-22 {
+    padding: 2.5rem 1rem 2rem 8rem;
+  }
+
   .frame-two {
     height: 30vh;
   }
@@ -45,9 +49,49 @@
   }
 }
 
+@media screen and (max-width: 1309px) {
+  .out-look {
+    width: 340px;
+  }
+
+  .Submit {
+    right: 31.2%;
+  }
+}
+
+@media screen and (max-width: 1297px) {
+  .out-look {
+    width: 330px;
+  }
+
+  .Submit {
+    right: 30.5%;
+  }
+}
+
+@media screen and (max-width: 1268px) {
+  .rectangle-22 {
+    height: 100%;
+  }
+
+  .three-flex {
+    display: grid;
+    grid-template-columns: repeat(2, 0.3fr);
+    gap: 3rem;
+  }
+
+  .out-look {
+    width: 350px;
+  }
+
+  .Submit {
+    right: 28.4%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .container {
-    margin: 0 3rem;
+    margin: 0 1rem;
   }
 
   .backgroundImg {
@@ -750,7 +794,7 @@
   }
 
   .Submit {
-    right: 4%;
+    right: 3.5%;
   }
 
   .link {
