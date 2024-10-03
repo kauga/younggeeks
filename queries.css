@@ -794,6 +794,13 @@
   }
 }
 
+/* * MOBILE 362PX * */
+@media screen and (max-width: 362px) {
+  .Submit {
+    right: 5.5%;
+  }
+}
+
 /* * MOBILE 345PX * */
 @media screen and (max-width: 345px) {
   .frame-two {
