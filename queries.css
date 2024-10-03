@@ -799,6 +799,10 @@
   .Submit {
     right: 5.5%;
   }
+
+  .icons {
+    justify-content: space-between;
+  }
 }
 
 /* * MOBILE 345PX * */
