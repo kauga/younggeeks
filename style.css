@@ -904,8 +904,8 @@
 
 .footer-two {
   display: grid;
-  /* grid-template-columns: 0.5fr 0.5fr 0.5fr; */
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 0.4fr 0.4fr 0.4fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
   gap: 5rem;
 }
 
